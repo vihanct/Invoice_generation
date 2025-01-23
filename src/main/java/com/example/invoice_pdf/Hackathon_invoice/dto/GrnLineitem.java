@@ -3,9 +3,9 @@ package com.example.invoice_pdf.Hackathon_invoice.dto;
 import lombok.Data;
 
 @Data
-public class PurchaseOrderLineItem {
+public class GrnLineitem {
+    String grnitemid;
+    String PoId;
     String purchaseorderitemid;
-    String name;
     Integer quantity;
-    Integer price;
 }
