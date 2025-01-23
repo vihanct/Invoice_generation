@@ -23,7 +23,7 @@ public class PurchaseOrder {
         return true;
     }
 
-    public boolean CheckStatus(){
-
-    }
+//    public boolean CheckStatus(){
+//
+//    }
 }
