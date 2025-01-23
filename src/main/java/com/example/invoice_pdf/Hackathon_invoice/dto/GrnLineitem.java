@@ -5,7 +5,8 @@ import lombok.Data;
 @Data
 public class GrnLineitem {
     String grnitemid;
-    String PoId;
-    String purchaseorderitemid;
-    String quantity;
+    PurchaseOrder po;
+    PurchaseOrderLineItem purchaseorderitemid;
+    int quantity;
+
 }
